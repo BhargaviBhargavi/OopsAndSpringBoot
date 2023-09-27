@@ -1,0 +1,11 @@
+Think of a real-world system, like a library or a shopping mall. How would you model it using OOP concepts? What are the objects, their attributes, and behaviors? How do they interact?
+Encapsulation:
+Think of a book. It has information like the title, author, and whether it's available or checked out. This information is like a secret that only the library knows. When someone wants to borrow a book, they ask the librarian. The librarian knows where the book is and whether it's available. This way, the details about the book are kept safe and controlled.
+Abstraction:
+Imagine going to a library. You don't need to know how the library keeps track of every book or how they organize the shelves. You just ask for a book, and the librarian gets it for you. The library handles all the complicated stuff behind the scenes, so you can focus on finding the book you want.
+Inheritance:
+Think about different types of books in a library: there are fiction books, non-fiction books, and maybe even reference books. They all have some things in common, like having an author and a title. But each type may have its own special features.
+Polymorphism:
+Consider checking out a book. The process might be a bit different depending on the type of book. For instance, you might need to fill out a different form for a fiction book compared to a non-fiction book. This is like using the same basic idea but applying it in slightly different ways depending on what kind of book it is.
+So, in a library, encapsulation keeps book details safe, abstraction makes it easy for you to find and borrow books, inheritance helps organize different types of books, and polymorphism allows for flexible processes based on the type of book.
+

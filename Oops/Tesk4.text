@@ -1,0 +1,14 @@
+Design a travel itinerary for a friend who has different preferences than you. How would you  ensure that your base plan (OOP) can be adapted to fit their needs (Design Principles)?
+
+
+Make Different Parts for Different Things (Single Responsibility Principle):
+Imagine you have different jobs to do on the trip like finding a place to stay, planning activities, and figuring out how to get around. Each job should have its own helper. This way, if your friend wants to change something about one job, it won't affect the others.
+Add New Things Without Changing the Old Ones (Open-Closed Principle):
+Think of your plan like building blocks. You can add new blocks  without having to take apart the ones you already have. This makes it easy to customize the plan for your friend.
+Switch Things Around Without Causing Problems (Liskov Substitution Principle):
+If you have different types of things, like hotels , they should all work the same way when your friend wants to choose one. You can swap them in and out without any hiccups.
+Don't Force Everything on Everyone (Interface Segregation Principle):
+Just like not everyone likes the same things on a trip, not every part of your plan is useful to everyone. Make separate lists or options for different interests, so your friend can pick what they like without being overwhelmed.
+Make Things Work Together, But Not Depend on Each Other (Dependency Inversion Principle):
+Instead of making one part of your plan rely on another part directly, have a middleman that helps them talk to each other. This way, if your friend wants to change one part, it won't affect the others.
+

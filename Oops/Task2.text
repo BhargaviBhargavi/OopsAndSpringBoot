@@ -1,0 +1,7 @@
+Imagine extending your Swiss journey to neighboring countries. How would you adapt your travel checklist? Relate this to the concept of inheritance and polymorphism in software design.
+
+Inheritance:
+Extending your Swiss journey to neighboring countries is like adding extra features to your original plan. Inheritance in software design works similarly, allowing new classes to inherit attributes and behaviors from existing ones. Just as you reuse essential items like warm clothes and a passport when traveling to neighboring countries, inheritance helps reuse core functionalities in software development.
+Polymorphism:
+Adapting to different countries is like using different "languages" of communication. In Switzerland, English and a bit of German might be enough, but in France, knowing some French phrases is really useful. 
+

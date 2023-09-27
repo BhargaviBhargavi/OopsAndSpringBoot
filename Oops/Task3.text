@@ -1,0 +1,13 @@
+
+Consider restrictions or rules you might encounter on your journey, like luggage weight limits or visa requirements. How would these constraints translate to software design principles?
+Single Responsibility Principle:
+This means that each "job" or "task" should be done by just one part of the program. For example, in our travel app, the part that handles luggage should only do luggage-related things and not worry about flight schedules or visas.
+Open-Closed Principle :
+This says we should be able to add new features to our program without changing the existing parts. In our airline reservation system, we can add new types of flights without having to change how the original flights work.
+Liskov Substitution Principle :
+This means that if something can do a job, then anything that comes from it (like a smaller part of it) should also be able to do that job. So, if a big suitcase can hold clothes, a smaller bag should also be able to hold clothes.
+Interface Segregation Principle :
+This suggests that we shouldn't force parts of the program to do things they don't need to do. In our travel app, if something only needs to book flights, it shouldn't have to worry about checking visas or packing luggage.
+Dependency Inversion Principle :
+Instead of parts of the program depending on specific other parts, they should depend on more general ideas. For example, in our luggage manager, it should talk to a general "flight scheduler" idea, not just one specific scheduler. This makes it easier to change things later.
+
